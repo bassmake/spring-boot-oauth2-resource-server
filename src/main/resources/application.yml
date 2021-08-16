@@ -4,3 +4,5 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:8081/issuer
+          jwk-set-uri: http://localhost:8081/issuer/.well-known/jwks.json
+#           https://cognito-idp.us-east-1.amazonaws.com/us-east-1_B1z7NcuJg/.well-known/jwks.json
