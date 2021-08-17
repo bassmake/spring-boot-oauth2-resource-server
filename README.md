@@ -1,5 +1,5 @@
 ```
-http https://cognito-idp.us-east-1.amazonaws.com/us-east-1_B1z7NcuJg/.well-known/jwks.json
+http https://cognito-idp.{region}.amazonaws.com/{providerId}/.well-known/jwks.json
 ```
 
 ```json
